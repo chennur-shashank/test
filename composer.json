@@ -1,0 +1,17 @@
+{
+    "name": "chennur-shashank/test",
+    "description": "This package is to test.",
+    "type": "library",
+    "require": {
+        "php": ">=7.0.0"       
+    },
+    "authors": [
+        {
+            "name": "Shashank Chennur",
+            "email": "chennurshashank@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"chennur-shashank\\": "src/"}
+    }
+}
