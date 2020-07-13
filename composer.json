@@ -1,19 +1,16 @@
 {
     "name": "chennur-shashank/test",
-    "description": "This package is to test.",
+    "description": "A simple hello world composer package",
     "type": "library",
-    "require": {
-        "php": ">=7.0.0"       
-    },
     "authors": [
-        {
+      {
             "name": "Shashank Chennur",
             "email": "chennurshashank@gmail.com"
         }
     ],
-    "minimum-stability": "dev-master",
-  "prefer-stable": true,
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {"chennur-shashank\\": "src/"}
-    }
+    },
+    "require": {}
 }
